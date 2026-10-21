@@ -1,0 +1,23 @@
+Formação de Pilates Clássico Presencial · Ultra Black VOLL
+=========================================================
+
+Arquivos:
+- index.html ............ página completa (responsiva: mobile e desktop)
+- countdown.js .......... cronômetro (dias/semanas até a live)
+- turmas.js ............. busca de turmas por Estado/Cidade
+- assets/images/ ........ todas as imagens usadas na página
+
+Como usar:
+1. Suba a pasta inteira no servidor, mantendo a estrutura (index.html na raiz
+   e a pasta assets/images ao lado). Não precisa de PHP nem WordPress.
+2. Para mudar a data da live, edite a linha DIA_DA_LIVE no countdown.js.
+3. Formulário: iframe do portal Grupo VOLL no index.html (procure
+   "publicFormId" para trocar o formulário).
+4. Turmas: o turmas.js lê ao vivo as turmas cadastradas no plugin
+   "Turmas Pilates Clássico" do WordPress (linha API no topo do arquivo).
+   As turmas continuam sendo cadastradas no admin do WordPress.
+   IMPORTANTE: a página precisa ficar no mesmo domínio do WordPress
+   (cursopilatesclassico.com.br), e o WordPress com o plugin ativo precisa
+   continuar instalado, porque é ele que responde em /wp-json/turmas/v1.
+   O index.html na raiz tem prioridade sobre o index.php do WordPress.
+5. As fontes (Archivo e Instrument Sans) são carregadas do Google Fonts.

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formação de Pilates Clássico Presencial · Ultra Black VOLL</title>
+<meta name="description" content="Formação de Pilates Clássico Presencial na Metodologia Nanô. Condição Ultra Black: R$ 700 OFF à vista, 12x de R$ 199, bônus da Black e Grande Sorteio na live de 11/11.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&amp;family=Instrument+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+
+body{margin:0;background:#0A0A0A}
+a{color:#f24a5b}a:hover{color:#ff8a97}
+.red{background:linear-gradient(90deg,#ff3347 0%,#e40428 45%,#a10d16 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo{background:linear-gradient(180deg,#ef2238 0%,#c00d1b 55%,#810f10 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(45deg)}
+.cta{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:12px 36px;border-radius:999px;background:linear-gradient(90deg,#e40428,#810f10);color:#fff;font-family:Archivo,sans-serif;font-weight:800;font-size:16px;letter-spacing:.06em;text-decoration:none;text-transform:uppercase;text-align:center;line-height:1.25;box-sizing:border-box;box-shadow:0 8px 28px rgba(228,4,40,.4)}
+.cta:hover{background:linear-gradient(90deg,#ff2439,#a50d16);color:#fff}
+.slot{border:2px dashed #5e1217;border-radius:16px;background:#120a0a;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:7px;padding:28px;box-sizing:border-box}
+.slot .lbl{font-family:Archivo,sans-serif;font-weight:800;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#f24a5b}
+.slot .dim{font-size:13px;color:#C9A05A;font-weight:600;letter-spacing:.02em}
+.slot .hint{font-size:12.5px;color:#8E887C;max-width:380px;line-height:1.5}
+.ic{display:block;height:46px;width:auto;max-width:72px;object-fit:contain}
+.sel{appearance:none;-webkit-appearance:none;background:#0A0A0A;color:#F3EFE6;border:1px solid #5e1217;border-radius:12px;padding:14px 18px;font-family:Instrument Sans,sans-serif;font-size:16px;min-width:220px;min-height:52px}
+.carousel{scrollbar-width:none;-ms-overflow-style:none}
+.carousel::-webkit-scrollbar{display:none}
+/* Cards "por que fazer": título e texto com altura reservada para alinhar os títulos entre os cards */
+.grid-porque h3{min-height:2.35em;display:flex;align-items:flex-end}
+.grid-porque h3+span{display:block;min-height:4.6em}
+/* Busca de turmas (turmas.js) */
+.sel{max-width:100%}
+#turmas-resultado{display:flex;flex-direction:column;gap:18px;text-align:left}
+#turmas-resultado>p{margin:0;text-align:center;color:#A8A296}
+.turmas-titulo{margin:12px 0 0;font-family:Archivo,sans-serif;font-weight:800;font-size:20px;text-transform:uppercase;text-align:center}
+.turmas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px}
+.turma-card{background:#141010;border:1px solid #2A2420;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.turma-card h3{margin:0;font-family:Archivo,sans-serif;font-weight:800;font-size:18px;color:#F3EFE6}
+.turma-card p{margin:0;font-size:15px;line-height:1.5;color:#D8D2C4}
+.turma-badge{display:inline-flex;align-items:center;min-height:40px;padding:8px 16px;border-radius:999px;font-family:Archivo,sans-serif;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;box-sizing:border-box}
+a.turma-badge{background:linear-gradient(90deg,#e40428,#810f10);color:#fff}
+a.turma-badge:hover{background:linear-gradient(90deg,#ff2439,#a50d16);color:#fff}
+.turma-badge.esgotada{background:#2A2420;color:#A8A296}
+.turma-info{grid-column:1/-1;background:#120a0a;border:1px solid #2A2420;border-radius:16px;padding:22px;font-size:15px;line-height:1.6;color:#D8D2C4}
+.turma-info h3{margin:0 0 8px;font-family:Archivo,sans-serif;font-size:16px;text-transform:uppercase;color:#f24a5b}
+.turma-info *{color:inherit!important}
+
+</style>
+</head>
+<body>
+<div style="font-family: 'Instrument Sans', sans-serif; color: #F3EFE6; background: #0A0A0A; min-height: 100vh">
+
+<!-- ============================================================
+     GUIA PARA O TIME DE WEB
+     • Caixas tracejadas (.slot) = ESPAÇOS DE ARTE / INTEGRAÇÃO.
+       Troque a <div class="slot">...</div> pela imagem/arte ou pelo
+       componente real (ex.: o seletor de turmas do site).
+     • As imagens reais já aplicadas (apostila, Conselho, ícones,
+       Nanô) vêm do próprio site do Clássico; troque no <img src>.
+     • Dimensões recomendadas aparecem em dourado dentro de cada slot.
+============================================================ -->
+
+<!-- Faixa de urgência -->
+<div style="background: linear-gradient(90deg, #810f10 0%, #e40428 50%, #810f10 100%); color: #fff; padding: 12px 20px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px 24px; font-family: Archivo, sans-serif; font-weight: 700; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; text-align: center">
+<span>Ultra Black VOLL · Concorra a 5 prêmios na live de 11/11</span>
+<span style="background: #0A0A0A; color: #ff8a97; border-radius: 999px; padding: 6px 16px; font-weight: 800; font-size: 14px; letter-spacing: .08em"><span data-cd="faixa">Faltam 23 dias</span></span>
+</div>
+
+<!-- Topo -->
+<header style="max-width: 1240px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap">
+<img src="assets/images/logo-voll.png" alt="VOLL Pilates Group" style="display: block; height: auto; width: min(340px, 66vw)">
+<a href="#inscricao" style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; color: #F3EFE6; border: 1px solid #e40428; border-radius: 999px; padding: 12px 22px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Garantir minha vaga</a>
+</header>
+
+<!-- ===== BANNER PRINCIPAL (arte oficial Ultra Black Clássico) =====
+     O time de web pode trocar este bloco pela arte oficial (banner desktop
+     1920×475 e mobile 1080×1920). A foto do Nanô está ancorada na base
+     (margin-bottom negativo) para encostar na seção abaixo, sem "flutuar". -->
+<section style="position: relative; overflow: hidden; border-bottom: 1px solid #2A2420; padding: 36px 24px 0; background: radial-gradient(120% 95% at 80% 20%, rgba(228,4,40,.32) 0%, rgba(129,15,16,.15) 42%, rgba(10,10,10,0) 74%), repeating-linear-gradient(135deg, rgba(255,255,255,.02) 0 2px, rgba(255,255,255,0) 2px 8px), linear-gradient(180deg, #120a0a 0%, #0A0A0A 100%)">
+<div style="max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: center; column-gap: clamp(8px, 2vw, 40px); row-gap: 16px">
+<div style="flex: 0 1 auto; min-width: 280px; max-width: 480px; padding-bottom: clamp(32px, 5vw, 64px)">
+<span style="display: inline-flex; align-items: center; gap: 10px; color: #f24a5b; font-weight: 700; font-size: 13px; letter-spacing: .24em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>Método Clássico com Rodrigo Nanô</span>
+<img src="assets/images/logo-ultra-black-classico.png" alt="Ultra Black · Formação de Pilates Clássico Presencial" style="display: block; margin-top: 18px; width: min(430px, 100%); height: auto">
+</div>
+<img src="assets/images/rodrigo-nano-hero.png" alt="Rodrigo Nanô, referência no Método Clássico" style="flex: 0 1 auto; align-self: flex-end; height: clamp(280px, 32vw, 430px); width: auto; max-width: 46%; margin-bottom: -1px; filter: drop-shadow(0 20px 40px rgba(0,0,0,.55))">
+</div>
+</section>
+
+<!-- Abertura + formulário -->
+<section id="inscricao" style="max-width: 1240px; margin: 0 auto; padding: 52px 24px 80px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 56px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div style="display: inline-flex; align-items: center; gap: 12px; color: #f24a5b; font-weight: 700; font-size: 13px; letter-spacing: .26em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>Curso de Pilates Clássico Presencial · Módulo Básico</div>
+<h1 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 50px); line-height: 1.04; letter-spacing: -.02em; text-transform: uppercase">Domine o Método Clássico com <span class="red">Rodrigo Nanô</span></h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #D8D2C4">Aprenda a sequência clássica nos principais aparelhos e no MAT em 3 dias de curso presencial. Na Ultra Black, com a maior condição do ano e um lugar no Grande Sorteio da live de 11/11.</p>
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px">
+<span class="red" style="font-family: Archivo, sans-serif; font-weight: 900; font-size: clamp(48px, 8.5vw, 74px); line-height: 1; white-space: nowrap">R$ 700 OFF</span>
+<span style="font-size: 18px; color: #A8A296; font-weight: 600">à vista</span>
+</div>
+<span style="font-size: 17px; color: #D8D2C4">Ou <b style="color: #F3EFE6">12x de R$ 199</b> no cartão, ou boleto com entrada de R$ 100 + 12x de R$ 199.</span>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; margin-top: 4px">
+<div style="border: 1px solid #2A2420; border-radius: 14px; padding: 14px 12px"><div style="font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(16px, 4.6vw, 22px); color: #F3EFE6">3 dias</div><div style="font-size: clamp(12px, 3.2vw, 13px); color: #A8A296">presenciais</div></div>
+<div style="border: 1px solid #2A2420; border-radius: 14px; padding: 14px 12px"><div style="font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(16px, 4.6vw, 22px); color: #F3EFE6">20 horas</div><div style="font-size: clamp(12px, 3.2vw, 13px); color: #A8A296">certificado MEC/CREF/CREFITO</div></div>
+<div style="border: 1px solid #2A2420; border-radius: 14px; padding: 14px 12px"><div style="font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(15px, 3.4vw, 18px); line-height: 1.1; color: #F3EFE6">Metodologia Nanô</div><div style="font-size: clamp(12px, 3.2vw, 13px); color: #A8A296">Referência no Pilates Clássico</div></div>
+</div>
+</div>
+<div style="background: #141010; border: 1px solid #e40428; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: Archivo, sans-serif; font-weight: 800; font-size: 22px; text-transform: uppercase">Garanta a condição Black</span>
+<span style="font-size: 15px; color: #A8A296">Preencha seus dados e um consultor entra em contato com as turmas disponíveis.</span>
+<iframe loading="lazy" src="https://portal.grupovoll.com.br/?publicFormId=ca34cb25-6335-40f0-8265-29b2fcf9d5f4&amp;embed=true" width="100%" height="700" title="Formulário de inscrição Grupo VOLL" style="border: 0; max-width: 100%; border-radius: 14px; display: block"></iframe>
+</div>
+</section>
+
+<!-- ===== SLOT · TURMAS (seletor Estado/Cidade — integração do time de web) ===== -->
+<section style="background: #120a0a; border-top: 1px solid #2A2420; border-bottom: 1px solid #2A2420">
+<div style="max-width: 1000px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center">
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(26px, 3vw, 38px); line-height: 1.1; text-transform: uppercase">Curso de Pilates Clássico Presencial <span class="red">Módulo Básico</span></h2>
+<p style="margin: 0; font-size: 18px; color: #D8D2C4">Encontre as turmas disponíveis mais próximas de você!</p>
+<div style="width: 100%; max-width: 760px; background: #0A0A0A; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px; align-items: center">
+<div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center">
+<label style="display: flex; flex-direction: column; gap: 6px; text-align: left; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #A8A296; font-weight: 700">Estado
+<select id="turmas-estado" class="sel">
+<option value="">Selecione o Estado</option>
+</select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 6px; text-align: left; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #A8A296; font-weight: 700">Cidade
+<select id="turmas-cidade" class="sel">
+<option value="">Selecione a Cidade</option>
+</select>
+</label>
+</div>
+</div>
+<div id="turmas-resultado" aria-live="polite" style="width: 100%"></div>
+</div>
+</section>
+
+<!-- PORQUE FAZER (8 cards · ícones reais do site) -->
+<section style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 820px">
+<div style="display: flex; align-items: center; gap: 12px; color: #f24a5b; font-weight: 700; font-size: 14px; letter-spacing: .26em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>Por que fazer a Formação</div>
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(30px, 3.4vw, 46px); line-height: 1.05; letter-spacing: -.02em; text-transform: uppercase">Aprenda o Método Clássico com um Conselho de Especialistas</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #A8A296">Selecionado por Rodrigo Nanô, para você construir uma carreira sólida, reconhecida e bem remunerada no Pilates.</p>
+</div>
+<div class="grid-porque" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); grid-auto-rows: 1fr; gap: 16px">
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/formacao-completa.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Formação completa</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Aprenda a sequência clássica nos principais aparelhos e no MAT em 3 dias de curso presencial.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/pratica-com-especialistas.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Prática com especialistas</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Aprenda o Método com grandes referências nacionais do Pilates.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/aulas-personalizadas.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Aulas personalizadas</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Entenda como adaptar exercícios, desafios e progressões às necessidades de cada aluno.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/novos-nichos-de-atuacao.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Novos nichos de atuação</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Adapte sua prática para trabalhar com diferentes públicos com mais segurança e confiança.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/aulas-mais-organizadas.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Aulas mais organizadas</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Domine comandos verbais, correções, progressões e leitura de corpo.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/autoridade-no-mercado.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Autoridade no mercado</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Eleve o seu valor no mercado e se posicione como especialista.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/pilates-com-estrategia.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Pilates com estratégia</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Planeje aulas mais coerentes, eficientes e com resultados consistentes.</span></div></div>
+<div style="position: relative; min-height: 300px; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/diferencial-competitivo.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.1) 0%, rgba(10,10,10,.5) 52%, rgba(10,10,10,.93) 100%)"></div><div style="position: relative; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 19px; color: #fff">Diferencial competitivo</h3><span style="font-size: 14.5px; line-height: 1.5; color: #E6E0D4">Aprofunde seus conhecimentos no Método e crie aulas mais ricas e adaptadas a diferentes alunos.</span></div></div>
+</div>
+<div style="display: flex; justify-content: center"><a class="cta" href="#inscricao">Quero a Formação Clássica</a></div>
+</section>
+
+<!-- OFERTA BLACK -->
+<section style="background: #120a0a; border-top: 1px solid #2A2420; border-bottom: 1px solid #2A2420">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 820px">
+<div style="display: flex; align-items: center; gap: 12px; color: #f24a5b; font-weight: 700; font-size: 14px; letter-spacing: .26em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>A maior condição do ano</div>
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(32px, 3.6vw, 48px); line-height: 1.05; letter-spacing: -.02em; text-transform: uppercase">Uma Formação à altura do Método. <span class="red">Uma oferta à altura da Black.</span></h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 20px">
+<div style="background: #0A0A0A; border: 1px solid #2A2420; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: #A8A296">01 · Clássico Presencial</span>
+<span class="red" style="font-family: Archivo, sans-serif; font-weight: 900; font-size: clamp(38px, 8vw, 52px); line-height: 1; white-space: nowrap">R$ 700 OFF</span>
+<span style="align-self: flex-start; background: linear-gradient(90deg, #e40428, #810f10); color: #fff; font-family: Archivo, sans-serif; font-weight: 900; font-size: 15px; letter-spacing: .02em; text-transform: uppercase; padding: 8px 16px; border-radius: 999px">no pagamento à vista</span>
+<span style="font-size: 16px; line-height: 1.5; color: #D8D2C4">Ou <b style="color: #F3EFE6">12x de R$ 199</b> no cartão, ou boleto com entrada de R$ 100 + 12x de R$ 199. Certificação do Grupo VOLL.</span>
+</div>
+<div style="background: #0A0A0A; border: 1px solid #2A2420; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: #A8A296">02 · Bônus da Black Clássico</span>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 15.5px; line-height: 1.45">
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">01</span><span><b>Gravação do Workshop</b> “Adaptação de aparelhos contemporâneos ao Método Clássico” + <b>PDF teórico</b> de acompanhamento</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">02</span><span><b>10 banners</b> do Rodrigo Nanô <span style="color: #f24a5b">(apenas para os 10 primeiros compradores)</span></span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">03</span><span><b>Mentoria</b> com Rodrigo Nanô <span style="color: #f24a5b">(só para quem comprar até 11/11)</span></span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">04</span><span><b>Curso online de Pilates Clássico</b> com acessórios <span style="color: #f24a5b">(garantido para todos que comprarem)</span></span></li>
+</ul>
+</div>
+<div style="background: linear-gradient(160deg, #3a0609 0%, #150708 60%); border: 1px solid #e40428; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: #f24a5b">03 · Só até 11/11</span>
+<span style="font-family: Archivo, sans-serif; font-weight: 800; font-size: 26px; line-height: 1.15">Grande Sorteio Ultra Black</span>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 16px; line-height: 1.4">
+<li><b style="color: #fff">1 PIX de R$ 5.000</b></li>
+<li><b style="color: #fff">2 PIX de R$ 1.000</b></li>
+<li>1 Pós-Graduação em Pilates para Patologias e Biomecânica Aplicada</li>
+<li>1 Evento VOLL 2027 à sua escolha</li>
+</ul>
+<span style="font-size: 14px; color: #D8D2C4; margin-top: 4px">Concorre quem garantir a Formação até o dia da live.</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 22px; text-transform: uppercase; color: #F3EFE6">Formas de pagamento</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px">
+<div style="background: #0A0A0A; border: 1px solid #2A2420; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: #f24a5b; font-weight: 700">À vista</span><span style="font-family: Archivo, sans-serif; font-weight: 900; font-size: 32px; line-height: 1">R$ 700 OFF</span><span style="font-size: 15px; color: #D8D2C4">Desconto no pagamento à vista.</span></div>
+<div style="background: #0A0A0A; border: 1px solid #2A2420; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: #f24a5b; font-weight: 700">No cartão</span><span style="font-family: Archivo, sans-serif; font-weight: 900; font-size: 32px; line-height: 1">12x R$ 199</span><span style="font-size: 15px; color: #D8D2C4">Parcele a sua Formação no cartão.</span></div>
+<div style="background: #0A0A0A; border: 1px solid #2A2420; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: #f24a5b; font-weight: 700">No boleto</span><span style="font-family: Archivo, sans-serif; font-weight: 900; font-size: 32px; line-height: 1">Entrada R$ 100<br>+ 12x R$ 199</span><span style="font-size: 15px; color: #D8D2C4">Entrada e o restante parcelado no boleto.</span></div>
+</div>
+</div>
+<div style="border: 1px solid #e40428; border-radius: 24px; padding: clamp(24px, 4vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 32px; align-items: center; background: radial-gradient(ellipse at 10% 0%, #3a0609 0%, #0A0A0A 70%)">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span style="font-size: 14px; letter-spacing: .22em; text-transform: uppercase; color: #f24a5b; font-weight: 700">Quarta · 11 de novembro · 20h · YouTube</span>
+<span style="font-family: Archivo, sans-serif; font-weight: 900; font-size: clamp(34px, 4.4vw, 58px); line-height: .95; text-transform: uppercase">Última Chamada<br><span class="red">Ultra Black VOLL</span></span>
+<span style="font-size: 17px; line-height: 1.5; color: #D8D2C4">A noite que fecha a Ultra Black. Os prêmios saem ao vivo, e só concorre quem garantir a Formação no Clássico até 11/11.</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 16px; padding: 24px 16px; text-align: center; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 13px; letter-spacing: .22em; text-transform: uppercase; color: #A8A296"><span data-cd="pre">Faltam</span></span>
+<span class="red" style="font-family: Archivo, sans-serif; font-weight: 900; font-size: clamp(32px, 4vw, 48px); line-height: 1; text-transform: uppercase"><span data-cd="main">23d 00h 00m</span></span>
+<span style="font-size: 13px; color: #A8A296">para o Grande Sorteio de 11/11, às 20h</span>
+</div>
+<a class="cta" href="#inscricao">Quero concorrer aos prêmios da live</a></div>
+</div>
+</div>
+</section>
+
+<!-- ACOMPANHA A FORMAÇÃO (5 cards · ícones reais) -->
+<section style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 36px">
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(26px, 3vw, 40px); line-height: 1.1; text-transform: uppercase; max-width: 900px">Tudo o que <span class="red">acompanha</span> a sua Formação</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 215px), 1fr)); gap: 16px">
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/formacao-presencial.png" alt="" aria-hidden="true"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Formação presencial</h3><span style="font-size: 15px; line-height: 1.55; color: #D8D2C4">3 dias intensos de prática e imersão total no Método Clássico.</span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/workshop-gravado-pdf.png" alt="" aria-hidden="true"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Workshop gravado + PDF</h3><span style="font-size: 15px; line-height: 1.55; color: #D8D2C4">Gravação do Workshop “Adaptação de aparelhos contemporâneos ao Método Clássico”, com PDF teórico.</span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/10-banners-do-nano.png" alt="" aria-hidden="true"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">10 banners do Nanô</h3><span style="font-size: 15px; line-height: 1.55; color: #D8D2C4">Material de divulgação do Rodrigo Nanô para o seu Studio e suas redes. <b style="color: #f24a5b">Apenas para os 10 primeiros compradores.</b></span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/mentoria-com-o-nano.png" alt="" aria-hidden="true"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Mentoria com o Nanô</h3><span style="font-size: 15px; line-height: 1.55; color: #D8D2C4">Um encontro de mentoria direto com Rodrigo Nanô. <b style="color: #f24a5b">Só para quem comprar até 11/11.</b></span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="#E6E0D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="height: 46px; width: auto"><rect x="7" y="9" width="34" height="23" rx="2"/><path d="M4 39h40"/><path d="M21 16.5l7 4-7 4z" fill="#E6E0D4" stroke="none"/></svg><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Curso online de Pilates Clássico</h3><span style="font-size: 15px; line-height: 1.55; color: #D8D2C4">Com os acessórios para praticar. <b style="color: #f24a5b">Garantido para todos que comprarem.</b></span></div>
+</div>
+</section>
+
+<!-- APOSTILA (imagem real do livro) -->
+<section style="background: #120a0a; border-top: 1px solid #2A2420; border-bottom: 1px solid #2A2420">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: 48px; align-items: center">
+<div style="display: flex; justify-content: center"><img src="assets/images/apostila-ilustrada.png" alt="Apostila Ilustrada do Curso de Pilates Clássico Presencial, aberta mostrando a série Knee Stretches" style="display: block; width: 100%; max-width: 520px; height: auto; filter: drop-shadow(0 24px 48px rgba(0,0,0,.55))"></div>
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; align-items: center; gap: 12px; color: #f24a5b; font-weight: 700; font-size: 14px; letter-spacing: .26em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>Material didático</div>
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(28px, 3.4vw, 44px); line-height: 1.07; text-transform: uppercase">Apostila Ilustrada <span class="red">com todos os exercícios</span></h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #D8D2C4">Todos os alunos do Módulo Básico recebem a Apostila Ilustrada, com orientações para cada movimento do Método Clássico.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 8px 24px; font-size: 14.5px; line-height: 1.5; color: #CFC8B8">
+<span>1. Nome do exercício</span><span>2. Foto do exercício</span>
+<span>3. Número de repetições</span><span>4. Scanner do aparelho</span>
+<span>5. Transições de movimentos</span><span>6. Posição inicial</span>
+<span>7. Instruções de execução</span><span>8. Posição final</span>
+<span>9. Comando verbal</span><span>10. Objetivos</span>
+<span>11. Espaço para observações</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- O QUE VOCÊ GANHA AO CONCLUIR (4 cards · ícones reais) -->
+<section style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 36px">
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(26px, 3vw, 40px); line-height: 1.1; text-transform: uppercase; max-width: 900px">O que você <span class="red">ganha ao concluir</span> a Formação</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 16px">
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/icone-certificacao-1.png" alt="" aria-hidden="true"><span style="font-size: 16px; line-height: 1.5; color: #F3EFE6; font-weight: 600">Certificado de 20 horas reconhecido pelo MEC, CREF e CREFITO</span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/icone-certificacao-2.png" alt="" aria-hidden="true"><span style="font-size: 16px; line-height: 1.5; color: #F3EFE6; font-weight: 600">Atuação no mercado após a finalização do curso</span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/icone-certificacao-3.png" alt="" aria-hidden="true"><span style="font-size: 16px; line-height: 1.5; color: #F3EFE6; font-weight: 600">Apostila ilustrada com orientações para todos os movimentos</span></div>
+<div style="background: #141010; border: 1px solid #2A2420; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><img class="ic" src="assets/images/icone-certificacao-4.png" alt="" aria-hidden="true"><span style="font-size: 16px; line-height: 1.5; color: #F3EFE6; font-weight: 600">Acesso a uma comunidade exclusiva de instrutores de Pilates</span></div>
+</div>
+<div style="display: flex; justify-content: center"><a class="cta" href="#inscricao">Quero fazer a Formação Clássica</a></div>
+</section>
+
+<!-- CONSELHO DE ESPECIALISTAS (foto real do time + grade de professores) -->
+<section style="background: #120a0a; border-top: 1px solid #2A2420; border-bottom: 1px solid #2A2420">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 900px">
+<div style="display: flex; align-items: center; gap: 12px; color: #f24a5b; font-weight: 700; font-size: 14px; letter-spacing: .26em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>Conselho de especialistas</div>
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(26px, 3.2vw, 42px); line-height: 1.08; text-transform: uppercase">Um conselho, múltiplas especialidades, <span class="red">uma única linhagem</span></h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #D8D2C4">Para formar profissionais completos, reunimos especialistas que dominam territórios técnicos específicos do Pilates Clássico, selecionados por Rodrigo Nanô.</p>
+</div>
+<div style="position: relative">
+<div id="profCar" class="carousel" style="display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 2px 2px 8px; scroll-behavior: smooth; -webkit-overflow-scrolling: touch">
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/icone-certificacao-5.jpg" alt="Camila Dantas" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Camila Dantas</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/camila-dantas.jpg" alt="Dayse Campante" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Dayse Campante</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/dayse-campante.jpg" alt="Gabriela Pereira" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Gabriela Pereira</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/gabriela-pereira.jpg" alt="Josi Bertoldi" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Josi Bertoldi</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/josi-bertoldi.jpg" alt="Livia Fonseca" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Livia Fonseca</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/livia-fonseca.jpg" alt="Nathalia Zampronha" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Nathalia Zampronha</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/nathalia-zampronha.jpg" alt="Renata Cristina Neves" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Renata Cristina Neves</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/renata-cristina-neves.jpg" alt="Renata Mano" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Renata Mano</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/renata-mano.jpg" alt="Robson Estenio" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Robson Estenio</span></div>
+<div style="flex: 0 0 190px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 8px"><img src="assets/images/robson-estenio.jpg" alt="Tamires Chacon" style="display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #2A2420"><span style="font-size: 14px; font-weight: 700; color: #F3EFE6; text-align: center">Tamires Chacon</span></div>
+</div>
+<button type="button" onclick="vollScrollCar(event)" aria-label="Ver mais professores" style="position: absolute; top: calc(50% - 18px); right: -6px; transform: translateY(-50%); width: 52px; height: 52px; border-radius: 50%; border: 1px solid #e40428; background: rgba(10,10,10,.9); color: #f24a5b; font-size: 28px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 22px rgba(0,0,0,.6)">›</button>
+</div>
+</div>
+</section>
+
+<!-- CONSELHO DE ESPECIALISTAS -->
+<section style="padding: 96px 0; display: flex; flex-direction: column; gap: 44px">
+<div style="max-width: 1240px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 0 24px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; align-items: center; gap: 12px; color: #f24a5b; font-weight: 700; font-size: 14px; letter-spacing: .26em; text-transform: uppercase"><span style="width: 36px; height: 1px; background: #e40428"></span>Conselho de especialistas</div>
+<h2 style="margin: 0; max-width: 820px; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(30px, 3.4vw, 46px); line-height: 1.05; text-transform: uppercase">Especialistas treinados <span class="red">na Metodologia Nanô</span></h2>
+<p style="margin: 0; max-width: 820px; font-size: 18px; line-height: 1.55; color: #D8D2C4">Você aprende o Método na origem, com um conselho de especialistas treinados diretamente na Metodologia Nanô, garantindo a mesma qualidade de ensino em todas as turmas.</p>
+<p style="margin: 0; max-width: 820px; font-size: 17px; line-height: 1.55; color: #A8A296">Na Black, você leva ainda a gravação do Workshop de adaptação de aparelhos contemporâneos ao Método Clássico, o PDF teórico, 10 banners e uma mentoria direto com o Nanô.</p>
+</div>
+<figure style="position: relative; margin: 0; border-top: 1px solid #2A2420; border-bottom: 1px solid #2A2420">
+<img src="assets/images/time-conselho-especialistas.webp" alt="Conselho de especialistas da Formação de Pilates Clássico Presencial, com Rodrigo Nanô no Studio VOLL" style="display: block; width: 100%; height: auto">
+<figcaption style="position: absolute; left: 0; right: 0; bottom: 0; padding: 20px 24px; max-width: 1240px; margin: 0 auto; background: linear-gradient(180deg, rgba(10,10,10,0) 0%, rgba(10,10,10,.78) 100%); font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: #F3EFE6; font-weight: 700">Rodrigo Nanô <span style="color: #f24a5b">e o conselho de especialistas da Formação</span></figcaption>
+</figure>
+<div style="max-width: 1240px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 0 24px"><a class="cta" href="#inscricao">Quero garantir minha vaga</a></div>
+</section>
+
+<!-- PARA QUEM (3 cards · ícones reais) -->
+<section style="background: #120a0a; border-top: 1px solid #2A2420; border-bottom: 1px solid #2A2420">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 36px">
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(28px, 3vw, 42px); line-height: 1.1; text-transform: uppercase">Para quem é a <span class="red">Formação Clássica</span></h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px">
+<div style="position: relative; min-height: 290px; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/instrutores-de-pilates.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,0) 0%, rgba(10,10,10,.05) 46%, rgba(10,10,10,.5) 74%, rgba(10,10,10,.9) 100%)"></div><div style="position: relative; padding: 26px; display: flex; flex-direction: column; gap: 10px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Instrutores de Pilates</h3><span style="font-size: 15px; line-height: 1.55; color: #E6E0D4">Que conhecem o Método Contemporâneo e querem se aprofundar no raciocínio por trás de cada movimento.</span></div></div>
+<div style="position: relative; min-height: 290px; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/ed-fisica-e-fisioterapia.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,0) 0%, rgba(10,10,10,.05) 46%, rgba(10,10,10,.5) 74%, rgba(10,10,10,.9) 100%)"></div><div style="position: relative; padding: 26px; display: flex; flex-direction: column; gap: 10px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Ed. Física e Fisioterapia</h3><span style="font-size: 15px; line-height: 1.55; color: #E6E0D4">Profissionais que querem aumentar e variar suas fontes de renda e melhorar o condicionamento dos alunos e pacientes.</span></div></div>
+<div style="position: relative; min-height: 290px; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: #141010"><img src="assets/images/estudantes.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,0) 0%, rgba(10,10,10,.05) 46%, rgba(10,10,10,.5) 74%, rgba(10,10,10,.9) 100%)"></div><div style="position: relative; padding: 26px; display: flex; flex-direction: column; gap: 10px"><h3 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; color: #f24a5b; text-transform: uppercase">Estudantes</h3><span style="font-size: 15px; line-height: 1.55; color: #E6E0D4">De Educação Física e Fisioterapia a partir do 3º semestre que querem trabalhar com o Pilates como fonte principal de renda.</span></div></div>
+</div>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #A8A296; max-width: 900px"><b style="color: #f24a5b">Importante:</b> a conclusão certifica você no Método pelo Grupo VOLL e não substitui a graduação necessária para o exercício das profissões de Fisioterapia ou Educação Física.</p>
+</div>
+</section>
+
+
+<!-- FAQ -->
+<section style="background: #120a0a; border-top: 1px solid #2A2420">
+<div style="max-width: 920px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 32px">
+<h2 style="margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(28px, 3vw, 40px); text-transform: uppercase">Perguntas frequentes</h2>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">Como funciona o Grande Sorteio Ultra Black?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">Quem garantir a Formação no Clássico até 11/11 concorre aos prêmios sorteados ao vivo na live de 11/11, às 20h, no YouTube: 1 PIX de R$ 5.000, 2 PIX de R$ 1.000, 1 Pós-Graduação em Pilates para Patologias e Biomecânica Aplicada e 1 Evento VOLL 2027 à escolha do ganhador.</p></details>
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">Quais são as formas de pagamento?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">À vista com R$ 700 de desconto; no cartão em 12x de R$ 199; ou no boleto com entrada de R$ 100 mais 12x de R$ 199.</p></details>
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">Qual o período do curso de Pilates?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">O curso é presencial, com 3 dias de Formação ao todo: sexta-feira das 18h às 22h, sábado das 9h às 18h e domingo das 8h às 17h.</p></details>
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">Já tenho a Formação Contemporânea, posso fazer a Clássica?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">Sim! O Curso de Pilates Clássico serve tanto para profissionais que estão iniciando quanto para os que já atuam com o Pilates Contemporâneo.</p></details>
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">O Rodrigo Nanô dará as aulas?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">Não necessariamente. Todos os instrutores foram treinados diretamente por ele, garantindo a mesma qualidade de ensino.</p></details>
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">Quem pode fazer o Curso de Pilates Clássico?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">Profissionais graduados em Fisioterapia ou Educação Física, ou estudantes a partir do 3º semestre da graduação.</p></details>
+<details style="border-bottom: 1px solid #2A2420"><summary style="display: flex; align-items: center; gap: 16px; padding: 20px 4px; min-height: 44px"><span style="flex: 1; font-size: 18px; font-weight: 600">O curso tem certificação reconhecida?</span><span class="chev" style="font-size: 24px; color: #f24a5b; line-height: 1; transition: transform .2s">+</span></summary><p style="margin: 0; padding: 0 4px 22px; font-size: 16px; line-height: 1.6; color: #CFC8B8">Sim. O certificado é de 20 horas, reconhecido pelo Grupo VOLL e Rodrigo Nanô, e em conformidade com o MEC, CREF e CREFITO.</p></details>
+</div>
+</div>
+</section>
+
+<!-- CTA FINAL -->
+<section style="padding: 96px 24px">
+<div style="max-width: 1240px; margin: 0 auto; border: 1px solid #e40428; border-radius: 28px; padding: clamp(32px, 5vw, 72px); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 18px; background: radial-gradient(ellipse at 50% 0%, #3a0609 0%, #0A0A0A 70%)">
+<span style="font-size: 14px; letter-spacing: .26em; text-transform: uppercase; color: #f24a5b; font-weight: 700">Condição da live até 11/11 · 20h</span>
+<span style="font-family: Archivo, sans-serif; font-weight: 900; font-size: clamp(38px, 5vw, 68px); line-height: .95; text-transform: uppercase">Seu Método Clássico<br><span class="red">em 12x de R$ 199</span></span>
+<ul style="list-style: none; margin: 4px 0 0; padding: 0; max-width: 620px; text-align: left; display: flex; flex-direction: column; gap: 16px; font-size: 16.5px; line-height: 1.5; color: #D8D2C4">
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">✓</span><span><b style="color: #F3EFE6">Pagamento:</b> à vista com R$ 700 de desconto, 12x de R$ 199 no cartão ou entrada de R$ 100 + 12x de R$ 199 no boleto.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">✓</span><span><b style="color: #F3EFE6">Bônus da Black:</b> Workshop gravado + PDF, Curso online de Pilates Clássico com acessórios, 10 banners (para os 10 primeiros) e mentoria com o Nanô (até 11/11).</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #f24a5b; font-weight: 800; flex: none">✓</span><span><b style="color: #F3EFE6">Grande Sorteio Ultra Black:</b> <b style="color: #fff">1 PIX de R$ 5.000</b>, <b style="color: #fff">2 PIX de R$ 1.000</b>, 1 Pós-Graduação em Pilates para Patologias e Biomecânica Aplicada e 1 Evento VOLL 2027 à sua escolha.</span></li>
+</ul>
+<a class="cta" href="#inscricao">Quero minha Formação na Ultra Black</a>
+</div>
+</section>
+
+<footer style="border-top: 1px solid #2A2420; padding: 32px 24px; text-align: center; font-size: 13px; color: #8E887C">© 2009-2026 Grupo VOLL Pilates. Todos os direitos reservados.</footer>
+</div>
+<script>
+function vollScrollCar(e){if(e&&e.preventDefault)e.preventDefault();var c=document.getElementById('profCar');if(!c)return;if(c.scrollLeft+c.clientWidth>=c.scrollWidth-12){c.scrollTo({left:0,behavior:'smooth'});}else{c.scrollBy({left:Math.max(220,Math.round(c.clientWidth*0.8)),behavior:'smooth'});}}
+</script>
+<script src="countdown.js" defer></script>
+<script src="turmas.js" defer></script>
+</body>
+</html>
