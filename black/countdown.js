@@ -1,28 +1,33 @@
-/* Cronômetro da Formação de Pilates Clássico Presencial · Ultra Black VOLL
-   Conta em dias/semanas até a live (horário de Brasília).
-   Altere apenas a data abaixo se a live mudar. */
+/* Cronômetro da Ultra Black — conta os dias até 30/11 (fim da Ultra Black), horário de Brasília (UTC-3).
+   Atualiza todos os elementos .cd-pre (rótulo) e .cd-main (valor) na página. */
 (function () {
-  var DIA_DA_LIVE = '2026-11-11';
+  function compute() {
+    var DAY = 86400000, BRT = 3 * 3600000;
+    var today = Math.floor((Date.now() - BRT) / DAY);
+    var endDay = Math.floor(Date.parse('2026-11-30T00:00:00Z') / DAY);
+    var days = endDay - today, cd;
+    if (days < 0)        cd = { pre: 'Encerrada',  main: 'a Ultra Black' };
+    else if (days === 0) cd = { pre: 'Último dia', main: 'até 23h59' };
+    else if (days === 1) cd = { pre: 'Falta',      main: '1 dia' };
+    else if (days < 7)   cd = { pre: 'Faltam',     main: days + ' dias' };
+    else if (days === 7) cd = { pre: 'Falta',      main: '1 semana' };
+    else if (days % 7 === 0) cd = { pre: 'Faltam', main: (days / 7) + ' semanas' };
+    else                 cd = { pre: 'Faltam',     main: 'menos de ' + Math.ceil(days / 7) + ' semanas' };
+    document.querySelectorAll('.cd-pre').forEach(function (e) { e.textContent = cd.pre; });
+    document.querySelectorAll('.cd-main').forEach(function (e) { e.textContent = cd.main; });
+  }
+  compute();
+  setInterval(compute, 30000);
 
-  var DIA = 86400000, BRT = 3 * 3600000;
-  function set(papel, texto) {
-    var els = document.querySelectorAll('[data-cd="' + papel + '"]');
-    for (var i = 0; i < els.length; i++) els[i].textContent = texto;
-  }
-  function atualizar() {
-    var hoje = Math.floor((Date.now() - BRT) / DIA);
-    var dias = Math.floor(Date.parse(DIA_DA_LIVE + 'T00:00:00Z') / DIA) - hoje;
-    var pre = 'Faltam', main;
-    if (dias <= 0) { pre = 'É hoje'; main = 'às 20h'; }
-    else if (dias === 1) { pre = 'Falta'; main = '1 dia'; }
-    else if (dias < 7) main = dias + ' dias';
-    else if (dias === 7) { pre = 'Falta'; main = '1 semana'; }
-    else if (dias % 7 === 0) main = (dias / 7) + ' semanas';
-    else main = 'menos de ' + Math.ceil(dias / 7) + ' semanas';
-    set('faixa', pre + ' ' + main);
-    set('pre', pre);
-    set('main', main);
-  }
-  atualizar();
-  setInterval(atualizar, 30000);
+  /* Carrossel do Conselho de especialistas */
+  window.scrollCar = function (e) {
+    if (e && e.preventDefault) e.preventDefault();
+    var c = document.getElementById('profCar');
+    if (!c) return;
+    if (c.scrollLeft + c.clientWidth >= c.scrollWidth - 12) {
+      c.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      c.scrollBy({ left: Math.max(220, Math.round(c.clientWidth * 0.8)), behavior: 'smooth' });
+    }
+  };
 })();
